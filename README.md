@@ -1,84 +1,128 @@
-Code status:
-------------
+# GyanSphere E-Commerce Platform
 
-* [![Appveyor CI status](https://ci.appveyor.com/api/projects/status/4u6pexmtpuf8jq66?svg=true)](https://ci.appveyor.com/project/rasmushoj/server) ci.appveyor.com
+A comprehensive e-commerce platform built with PHP, MySQL, and Bootstrap, offering a seamless shopping experience with user and admin functionalities.
 
-## MariaDB: drop-in replacement for MySQL
+![GyanSphere Logo](./images/logo.png)
 
-MariaDB is designed as a drop-in replacement of MySQL(R) with more
-features, new storage engines, fewer bugs, and better performance.
+## 🌟 Demo
 
-MariaDB is brought to you by the MariaDB Foundation and the MariaDB corporation.
-Please read the CREDITS file for details about the MariaDB Foundation,
-and who is developing MariaDB.
+Watch the platform in action: [YouTube Demo Video](https://youtu.be/your-video-id)
 
-MariaDB is developed by many of the original developers of MySQL who
-now work for the MariaDB Corporation, the MariaDB Foundation and by
-many people in the community.
+## ✨ Features
 
-MySQL, which is the base of MariaDB, is a product and trademark of Oracle
-Corporation, Inc. For a list of developers and other contributors,
-see the Credits appendix.  You can also run 'SHOW authors' to get a
-list of active contributors.
+### Customer Features
+- **User Authentication**: Secure registration and login system
+- **Product Browsing**: View all products or filter by categories and brands
+- **Product Details**: Detailed product information with multiple images
+- **Search Functionality**: Find products quickly with the search feature
+- **Shopping Cart**: Add, update, and remove items from cart
+- **User Dashboard**: Track orders, update profile, and manage account
+- **Multiple Payment Options**: Choose from various payment methods
 
-A description of the MariaDB project and a manual can be found at:
+### Admin Features
+- **Admin Dashboard**: Comprehensive overview of store activities
+- **Product Management**: Add, edit, and delete products
+- **Category & Brand Management**: Manage product categories and brands
+- **Order Management**: View and process customer orders
+- **User Management**: View and manage user accounts
+- **Analytics**: Basic sales and traffic insights
 
-https://mariadb.com/kb/en/
+## 🛠️ Technologies Used
 
-https://mariadb.com/kb/en/mariadb-vs-mysql-features/
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5
+- **Backend**: PHP 7.4+
+- **Database**: MySQL
+- **Icons**: Font Awesome
+- **Responsive Design**: Mobile-first approach
 
-https://mariadb.com/kb/en/mariadb-versus-mysql-compatibility/
+## 📋 Requirements
 
-https://mariadb.com/kb/en/library/new-and-old-releases/
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- Apache/Nginx web server
+- Modern web browser
 
-https://mariadb.org/
+## 🚀 Installation & Setup
 
-As MariaDB is a full replacement of MySQL, the MySQL manual at
-http://dev.mysql.com/doc is generally applicable.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/gyansphere-ecommerce.git
+   cd gyansphere-ecommerce
+   ```
 
-Help
------
+2. **Database setup**
+   - Import the database schema from `database/mystore.sql`
+   - Configure database connection in `includes/connect.php`
 
-More help is available from the Maria Discuss mailing list
-https://launchpad.net/~maria-discuss
-and the #maria IRC channel on Freenode.
+3. **Web server configuration**
+   - Point your web server to the project directory
+   - Ensure PHP is properly configured
 
-Live QA for beginner contributors
-----
-MariaDB has a dedicated time each week when we answer new contributor questions live on Zulip and IRC.
-From 8:00 to 10:00 UTC on Mondays, and 10:00 to 12:00 UTC on Thursdays,
-anyone can ask any questions they’d like, and a live developer will be available to assist.
+4. **Access the application**
+   - Frontend: `http://localhost/MyProject/`
+   - Admin Panel: `http://localhost/MyProject/admin_area/`
 
-New contributors can ask questions any time, but we will provide immediate feedback during that interval.
+## 📷 Screenshots
 
-Licensing
----------
+### Homepage
+![Homepage](screenshots/homepage.png)
 
-***************************************************************************
+### Product Listing
+![Product Listing](screenshots/product-listing.png)
 
-NOTE: 
+### Shopping Cart
+![Shopping Cart](screenshots/shopping-cart.png)
 
-MariaDB is specifically available only under version 2 of the GNU
-General Public License (GPLv2). (I.e. Without the "any later version"
-clause.) This is inherited from MySQL. Please see the README file in
-the MySQL distribution for more information.
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
 
-License information can be found in the COPYING file. Third party
-license information can be found in the THIRDPARTY file.
+## 🔐 Login Credentials
 
-***************************************************************************
+### Demo Admin Account
+- **Username**: admin
+- **Password**: admin123
 
-Bug Reports
-------------
+### Demo User Account
+- **Username**: user
+- **Password**: user123
 
-Bug and/or error reports regarding MariaDB should be submitted at:
-https://jira.mariadb.org
+## 📚 Project Structure
 
-For reporting security vulnerabilities see:
-https://mariadb.org/about/security-policy/
+```
+MyProject/
+├── admin_area/            # Admin dashboard and functionalities
+├── functions/             # Common PHP functions
+├── images/                # Site images and product photos
+├── includes/              # Shared components like headers, footers
+├── users_area/            # User account management
+├── cart.php               # Shopping cart functionality
+├── display_all.php        # All products display
+├── index.php              # Homepage
+├── products_details.php   # Product details page
+├── search_product.php     # Search functionality
+└── style.css              # Global styles
+```
 
-Bugs in the MySQL code can also be submitted at:
-https://bugs.mysql.com
+## 🤝 Contributing
 
-The code for MariaDB, including all revision history, can be found at:
-https://github.com/MariaDB/server
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/yourusername/gyansphere-ecommerce/issues).
+
+## 👨‍💻 Author
+
+**Gyan Chandra**
+- LinkedIn: [Gyan Chandra](https://www.linkedin.com/in/gyanchandra29102003)
+- Instagram: [@gyan.2910](https://www.instagram.com/gyan.2910/)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+
+- Bootstrap for the responsive design framework
+- Font Awesome for the icons
+- All open source libraries used in this project
+
+---
+
+&copy; 2025 GyanSphere. All rights reserved.
