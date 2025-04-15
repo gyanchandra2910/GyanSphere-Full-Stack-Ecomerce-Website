@@ -101,6 +101,7 @@ MyProject/
 ├── products_details.php   # Product details page
 ├── search_product.php     # Search functionality
 └── style.css              # Global styles
+└── mystore.sql            # stores database
 ```
 
 ## 🤝 Contributing
