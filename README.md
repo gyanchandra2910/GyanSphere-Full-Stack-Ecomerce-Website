@@ -63,19 +63,6 @@ Watch the platform in action: [YouTube Demo Video](https://youtu.be/your-video-i
    - [Frontend](https://gyansphere.42web.io/index.php)
    - [Admin Panel](https://gyansphere.42web.io/admin_area/admin_login.php)
 
-## 📷 Screenshots
-
-### Homepage
-![Homepage](screenshots/homepage.png)
-
-### Product Listing
-![Product Listing](screenshots/product-listing.png)
-
-### Shopping Cart
-![Shopping Cart](screenshots/shopping-cart.png)
-
-### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
 
 ## 🔐 Login Credentials
 
