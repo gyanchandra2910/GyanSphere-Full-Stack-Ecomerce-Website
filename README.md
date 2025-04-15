@@ -59,6 +59,7 @@ Watch the platform in action: [YouTube Demo Video](https://youtu.be/your-video-i
    - Ensure PHP is properly configured
 
 4. **Access the application**
+   ## Hosted on infinityfree
    - [Frontend](https://gyansphere.42web.io/index.php)
    - [Admin Panel](https://gyansphere.42web.io/admin_area/admin_login.php)
 
