@@ -59,8 +59,8 @@ Watch the platform in action: [YouTube Demo Video](https://youtu.be/your-video-i
    - Ensure PHP is properly configured
 
 4. **Access the application**
-   - Frontend: `http://localhost/MyProject/`
-   - Admin Panel: `http://localhost/MyProject/admin_area/`
+   - Frontend: `https://gyansphere.42web.io/index.php`
+   - Admin Panel: `https://gyansphere.42web.io/admin_area/admin_login.php`
 
 ## 📷 Screenshots
 
