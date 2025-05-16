@@ -2,15 +2,18 @@
 
 A comprehensive e-commerce platform built with PHP, MySQL, and Bootstrap, offering a seamless shopping experience with user and admin functionalities.
 
-![GyanSphere Logo](./images/logo.png)
+<div align="center">
+  <img src="./images/logo.png" alt="GyanSphere Logo" width="300" style="margin-bottom: 20px;"/>
+</div>
 
 ## 🌟 Demo
 
-Watch the platform in action: [YouTube Demo Video](https://youtu.be/tY4kMlekop4))
+Watch the platform in action: [YouTube Demo Video](https://youtu.be/tY4kMlekop4)
 
 ## ✨ Features
 
 ### Customer Features
+
 - **User Authentication**: Secure registration and login system
 - **Product Browsing**: View all products or filter by categories and brands
 - **Product Details**: Detailed product information with multiple images
@@ -20,6 +23,7 @@ Watch the platform in action: [YouTube Demo Video](https://youtu.be/tY4kMlekop4)
 - **Multiple Payment Options**: Choose from various payment methods
 
 ### Admin Features
+
 - **Admin Dashboard**: Comprehensive overview of store activities
 - **Product Management**: Add, edit, and delete products
 - **Category & Brand Management**: Manage product categories and brands
@@ -45,16 +49,19 @@ Watch the platform in action: [YouTube Demo Video](https://youtu.be/tY4kMlekop4)
 ## 🚀 Installation & Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/gyansphere-ecommerce.git
    cd gyansphere-ecommerce
    ```
 
 2. **Database setup**
+
    - Import the database schema from `database/mystore.sql`
    - Configure database connection in `includes/connect.php`
 
 3. **Web server configuration**
+
    - Point your web server to the project directory
    - Ensure PHP is properly configured
 
@@ -63,14 +70,15 @@ Watch the platform in action: [YouTube Demo Video](https://youtu.be/tY4kMlekop4)
    - [Frontend](https://gyansphere.42web.io/index.php)
    - [Admin Panel](https://gyansphere.42web.io/admin_area/admin_login.php)
 
-
 ## 🔐 Login Credentials
 
 ### Demo Admin Account
+
 - **Username**: admin
 - **Password**: admin123
 
 ### Demo User Account
+
 - **Username**: user
 - **Password**: user123
 
@@ -98,13 +106,21 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 
 ## 👨‍💻 Author
 
-**Gyan Chandra**
-- LinkedIn: [Gyan Chandra](https://www.linkedin.com/in/gyanchandra29102003)
-- Instagram: [@gyan.2910](https://www.instagram.com/gyan.2910/)
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="./images/gyan.png" alt="Gyan Chandra" width="150" style="border-radius: 10px; margin-right: 20px;"/>
+  <div>
+    <h3>Gyan Chandra</h3>
+    <p>Full-stack developer passionate about creating beautiful, functional e-commerce experiences.</p>
+    <p>Connect with me on: 
+      <a href="https://www.linkedin.com/in/gyanchandra29102003" target="_blank">LinkedIn</a> | 
+      <a href="https://www.instagram.com/gyan.2910/" target="_blank">Instagram</a>
+    </p>
+  </div>
+</div>
 
-## 📝 License
+## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
 
